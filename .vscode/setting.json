@@ -1,0 +1,29 @@
+{
+  "files.insertFinalNewline": true,
+  // 必须false，否则和eslint的规则有冲突
+  "editor.formatOnSave": false,
+  // "eslint.validate": [
+  //   "html",
+  //   "vue",
+  //   "javascript",
+  //   "javascriptreact",
+  //   "typescript",
+  //   "typescriptreact"
+  // ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  // 如果使用vetur，必须false，否则和eslint的规则有冲突
+  "vetur.format.enable": false,
+  "vetur.validation.script": false,
+  "prettier.enable": false,
+  "editor.tabSize": 2,
+  "cSpell.words": [
+    "Mobilephone",
+    "Scode",
+    "localforage",
+    "vuex",
+    "wechat"
+  ]
+}
